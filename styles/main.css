@@ -27,6 +27,7 @@ nav {
     background-color: blanchedalmond;
     text-align: center;
     padding: 5px;
+    max-height: 5rem;
 }
 
 nav a {
@@ -35,8 +36,13 @@ nav a {
     margin-right: 1rem;
 }
 
+nav a:hover{
+    color: steelblue;
+}
+
 hr {
     width: 5%;
+    border-top: 1px solid red;
 }
 
 table {
